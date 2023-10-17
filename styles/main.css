@@ -63,8 +63,6 @@ margin-top: 20px;
 span{
   color: #F55D3A;
 }
-  
-
 
 nav {
   justify-content: space-between;
@@ -159,10 +157,11 @@ nav p{
   color: #24126A;
 
 }
-.stories h3{
+.par h3{
   color: #24126A;
   font-size: 28px;
   text-align: center;
+  margin-top: 80px;
   margin-bottom: 30px;
 
 }
@@ -214,6 +213,15 @@ nav p{
   width: 610px ;
   color: white;
   font-size: 18px;
+}
+
+.senyal h3{
+  color: #24126A;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+
 }
 .senyal a{
   font-size: 18px;
