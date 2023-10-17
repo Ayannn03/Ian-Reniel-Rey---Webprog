@@ -1,0 +1,602 @@
+/* Fonts 
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+:root {
+  --spacer: 3rem;
+  --box-shadow: 0.3rem 0.3rem 1.5rem rgb(0, 0, 0, 0.15);
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p,
+
+figure {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Utilities */
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-spacer, var(--spacer));
+}
+/* Start Here */
+
+body{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pump img{
+  height: 280px;
+
+}
+.pump{
+margin-top: 20px;
+}
+span{
+  color: #F55D3A;
+}
+  
+
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 30px 80px;
+  align-items: center;
+  font-size: 18px;
+  font-weight:bold;
+  color: #1AC3C3;
+  
+}
+nav ul{
+  display:flex ;
+  flex-direction: row;
+  gap: 80px;
+  font-weight:normal;
+}
+nav li{
+  list-style: none;
+  font-size: 18px;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color:#1AC3C3;
+  font-weight: bold;
+}
+nav p{
+  font-size: 26px;
+}
+.hero{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  margin-left: 80px;
+}
+.land {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+
+}
+.land h1{
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #F55D3A;
+  margin-bottom: 1px;
+  
+}
+
+.land h2{
+  font-size: 32px;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.land a {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1AC3C3;
+  text-decoration-line: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+.color-p{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+}
+
+.border-p{
+  position: relative;
+  width: 150px;
+  height: 270px;
+  background-color: #F55D3A;
+  top: 30px;
+  left: -100px;
+  border-radius: 5px;
+}
+.stories h2{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 100px;
+  color: #24126A;
+
+}
+.stories h3{
+  color: #24126A;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.params{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.par {
+  display: flex;
+  flex-direction: column; 
+}
+.par p{
+  width: 610px ;
+  font-size: 18px;
+}
+.par a{
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #F55D3A;
+
+
+}
+
+.senyals{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.senyal{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.senyal p{
+  width: 610px ;
+  color: white;
+  font-size: 18px;
+}
+.senyal a{
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #F55D3A;
+}
+
+.senyales-bg{
+  position: relative;
+  width: 150px;
+  height: 270px;
+  background-color: #1AC3C3;
+  top: 30px;
+  left: 90px;
+  border-radius: 5px;
+  margin-top: -110px;
+  
+}
+.senyales-b{
+  position: absolute;
+  left: -140px;
+  top: 10px;
+  
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+
+}
+.author h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #F55D3A;
+  text-align: center;
+
+}
+
+.authors h2{
+  color: #24126A;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;   
+
+}
+
+.author img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  width: 200px;
+  height: 200px;
+}
+.author p {
+  width: 300px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  
+ 
+}
+.scar img{
+  width: 230px;
+  height: 230px;
+}
+.scar h3 {
+  margin-top: -10px;
+}
+
+.dare h1{
+  font-size: 64px;
+  color: #3D2892;
+  font-family: 'Poppins', sans-serif;
+}
+.dare {
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 450px;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  
+}
+.dare input{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.email{
+  background-color: white;
+}
+.waves {
+  position: relative;
+}
+.waves img{
+  height: 700px;
+  width: 100%;
+}
+.spook{
+  background-color: blue;
+  color: white;
+}
+
+.inc{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  color: white;
+  top:600px;
+  width: 100%;
+}
+
+@media screen and (min-width: 360px) and (max-width:630px){
+  :root {
+    --spacer: 2rem; 
+  }
+  html ,body{
+    font-size: 50%;
+    width: 100%;
+  }
+
+  .pump{
+    margin-left: 80px;
+  }
+
+  .hero {
+    flex-direction: column; 
+    gap: 20px; 
+    margin: 0 0 ;
+
+  }
+  .land h1 {
+    font-size: 40px; 
+  }
+
+  .land h2 {
+    font-size: 24px; 
+    margin-bottom: 30px;
+  }
+
+ 
+  nav {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav li {
+    font-size: 12px; 
+  }
+  .stories h2 {
+    margin-top: 50px;
+    font-size: 28px;
+  }
+
+  .params {
+    display: flex;
+    flex-direction: column;
+  }
+  .par p{
+    width: 350px;
+    text-align: center;
+  }
+  .params a{
+    text-align: center;
+  }
+  .senyals{
+    display: flex;
+    flex-direction: column;
+  }
+  .senyal p{
+    width: 350px;
+    text-align: center;
+  }
+  .senyal a{
+    text-align: center;
+  }
+  .author{
+    display:flex;
+    flex-direction: column;
+  } 
+
+  .author p{
+    font-size: 12px;
+  }
+  .author h3{
+    font-size: 18px;
+    
+  }
+  .dare input{
+    display: flex;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+  .dare{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    gap: 10px;
+  }
+  .dare h1{
+    top: 100px;
+    font-size: 28px;
+  }
+  .dare p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .dare h3{
+    text-align: center;
+  }
+
+ 
+  .waves{
+    top: 100px;
+    position: relative;
+  }
+
+  .waves img{
+    height: 500px;
+    width: 100%;
+  }
+  .inc{
+    font-size: 12px;
+    top: 450px;
+  }
+}
+@media screen and (min-width: 631px) and (max-width:768px){
+  html ,body{
+    font-size: 50%;
+    width: 100%;
+  }
+  
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .pump{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    margin: 0 0 ;
+  }
+.land{
+  margin-left: 0;
+}
+
+.land h1 {
+  font-size: 40px; 
+}
+
+.land h2 {
+  font-size: 24px; 
+  margin-bottom: 30px;
+}
+.stories h2{
+  margin-top: 50px;
+
+}
+.params{
+  display: flex;
+  flex-direction: column;
+}
+.senyals{
+  display: flex;
+  flex-direction: column;
+}
+.author{
+  display: flex;
+  flex-direction: column;
+}
+.dare{
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 450px;
+  gap: 10px;
+  font-size: 28px;
+}
+.dare h1{
+  font-size: 28px;
+}
+
+} 
+@media screen and (min-width: 769px) and (max-width: 940px){
+  html ,body{
+    font-size: 50%;
+    width: 100%;
+  }
+  .pump img{
+    height: 230px;
+    width: 230px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+  }
+
+  nav li{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 18px;
+
+  }
+  .hero {
+    flex-direction: row; 
+    gap: 10px;
+
+  }
+  .hero h1{
+    font-size: 40px;
+  }
+  .hero h2{
+    font-size: 28px;
+  }
+  .stories h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .par h3{
+    margin-top: 180px;
+  }
+  .par p{
+    width: 300px;
+    font-size: 16px;
+  }
+  .senyal h3{
+    margin-top: 120px;
+  }
+  .senyal p{
+    width: 300px;
+    font-size: 16px;
+  }
+  .author{
+    flex-direction: column;
+
+  }
+  .dare{
+    top: 500px;
+  }
+  .dare h1{
+    font-size: 40px;
+  }
+  .waves{
+    width: 100%;
+
+  }
+ 
+}
